@@ -1,0 +1,25 @@
+{
+  "name": "thin-capsule",
+  "version": "0.0.2",
+  "description": "Very, very thin helper to make requests to v2 of the Capsule CRM API. Largely copied from https://github.com/bug-buster/capsule-crm.",
+  "main": "index.js",
+  "dependencies": {
+    "request": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4ARMED/thin-capsule.git"
+  },
+  "keywords": [
+    "capsule"
+  ],
+  "author": "Marc Wickenden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4ARMED/thin-capsule/issues"
+  },
+  "homepage": "https://github.com/4ARMED/thin-capsule#readme"
+}
