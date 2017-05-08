@@ -19,7 +19,7 @@ var Capsule = function(token) {
       jar: false
     };
     console.log('Sending GET request to Capsule CRM: ' + opt.url);
-    get(opt, function(err, res, body) {
+    request.get(opt, function(err, res, body) {
       if (err)
         return cb(err);
       if (res.statusCode !== 200 && res.statusCode !== 201)
@@ -47,7 +47,7 @@ var Capsule = function(token) {
       opt.body = options.data;
     }
     console.log('Sending POST request to Capsule CRM: ' + opt.url + ' with ' + opt.body);
-    post(opt, function(err, res, body) {
+    request.post(opt, function(err, res, body) {
       if (err)
         return cb(err);
       if (res.statusCode !== 200 && res.statusCode !== 201)

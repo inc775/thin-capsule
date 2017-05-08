@@ -1,6 +1,6 @@
 {
   "name": "thin-capsule",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Very, very thin helper to make requests to v2 of the Capsule CRM API. Largely copied from https://github.com/bug-buster/capsule-crm.",
   "main": "index.js",
   "dependencies": {
